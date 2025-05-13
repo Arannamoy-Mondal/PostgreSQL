@@ -10,6 +10,7 @@
 6. [💰 Licensing & Cost](#-6-licensing--cost)
 7. [🎯 Best Use Cases](#-7-best-use-cases)
 8. [✅ Final Verdict](#-final-verdict)
+9. [🐘 PostgreSQL Installation & Setup on Ubuntu](#PostgreSQL-Installation--Setup-on-Ubuntu)
 
 
 # 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
