@@ -144,7 +144,7 @@ ALTER USER postgres WITH PASSWORD 'your_password_here';
 SELECT datname FROM pg_database;
 ```
 ## Ouput:
-
+```psql
                                  List of databases
    Name    |  Owner   | Encoding | Collate |  Ctype  |   Access privileges
 -----------+----------+----------+---------+---------+-----------------------
@@ -155,5 +155,5 @@ SELECT datname FROM pg_database;
            |          |          |         |         | postgres=CTc/postgres
  yourdb    | youruser | UTF8     | en_US   | en_US   |
 
-
+```
 
