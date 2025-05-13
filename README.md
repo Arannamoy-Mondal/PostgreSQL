@@ -158,3 +158,12 @@ SELECT datname FROM pg_database;
 
 ```
 
+## # 🐘 PostgreSQL: Check Installed Version
+## 🔍 Purpose
+
+The following command is used **inside the `psql` shell** to check the installed version of PostgreSQL:
+
+```sql
+SELECT version();
+```
+
