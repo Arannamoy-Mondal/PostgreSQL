@@ -1,8 +1,4 @@
-# Postgresql 
-
-# 📘 Index – PostgreSQL vs MySQL vs MSSQL
-
-Welcome to the full comparison of the three most popular relational database management systems. Use the links below to jump to each section.
+# PostgreSQL
 
 ## 📂 Table of Contents
 
