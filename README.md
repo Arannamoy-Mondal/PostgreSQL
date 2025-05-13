@@ -104,3 +104,56 @@
 | 🏢 Enterprise, Windows, .NET stack   | MSSQL             |
 | 📊 Data warehousing, BI              | MSSQL/PostgreSQL  |
 | 💸 Free and powerful DB              | PostgreSQL        |
+
+
+
+# 🐘 PostgreSQL Installation & Setup on Ubuntu
+
+
+# 📦 Install PostgreSQL and Contrib Extensions
+
+```
+sudo apt install postgresql postgresql-contrib
+```
+
+# 👤 Switch to the postgres User
+
+```
+sudo -i -u postgres
+```
+# 👤 Access the PostgreSQL shell
+```
+psql
+```
+# 🔐 Set Password for postgres DB User
+```
+ALTER USER postgres WITH PASSWORD 'your_password_here';
+```
+
+# For quit 
+```
+\q
+```
+
+# 🔍 What does \l do?
+```
+\l
+```
+`Alternative`
+```
+SELECT datname FROM pg_database;
+```
+## Ouput:
+
+                                 List of databases
+   Name    |  Owner   | Encoding | Collate |  Ctype  |   Access privileges
+-----------+----------+----------+---------+---------+-----------------------
+ postgres  | postgres | UTF8     | en_US   | en_US   |
+ template0 | postgres | UTF8     | en_US   | en_US   | =c/postgres          +
+           |          |          |         |         | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US   | en_US   | =c/postgres          +
+           |          |          |         |         | postgres=CTc/postgres
+ yourdb    | youruser | UTF8     | en_US   | en_US   |
+
+
+
