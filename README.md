@@ -17,56 +17,94 @@ Welcome to the full comparison of the three most popular relational database man
 
 
 # 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
+# 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
 
 ## 🧠 1. General Overview
-| Feature    | **PostgreSQL**                         | **MySQL**                          | **MSSQL (SQL Server)**                |
-| ---------- | -------------------------------------- | ---------------------------------- | ------------------------------------- |
-| Type       | Object-relational DBMS                 | Relational DBMS                    | Relational DBMS                       |
-| License    | Open-source (PostgreSQL License)       | Open-source (GPL, owned by Oracle) | Proprietary (Microsoft)               |
-| OS Support | Cross-platform (Windows, Linux, macOS) | Cross-platform                     | Mostly Windows, partial Linux support |
-| Developer  | PostgreSQL Global Development Group    | Oracle Corporation                 | Microsoft                             |
+
+| Feature        | PostgreSQL                        | MySQL                                | MSSQL (SQL Server)                      |
+|----------------|------------------------------------|--------------------------------------|-----------------------------------------|
+| Type           | Object-relational DBMS            | Relational DBMS                      | Relational DBMS                         |
+| License        | Open-source (PostgreSQL License)  | Open-source (GPL, owned by Oracle)  | Proprietary (Microsoft)                |
+| OS Support     | Windows, Linux, macOS             | Windows, Linux, macOS                | Mostly Windows, partial Linux support   |
+| Developer      | PostgreSQL Global Dev Group       | Oracle Corporation                   | Microsoft                               |
+
+---
 
 ## 🚀 2. Performance & Scalability
-| Feature               | **PostgreSQL**                        | **MySQL**                                | **MSSQL**                                             |
-| --------------------- | ------------------------------------- | ---------------------------------------- | ----------------------------------------------------- |
-| Read-heavy Workloads  | Good                                  | Excellent (especially with InnoDB)       | Good                                                  |
-| Write-heavy Workloads | Excellent (supports MVCC)             | Good (less efficient with large writes)  | Excellent (optimized for transactions)                |
-| Concurrency           | Strong (MVCC, advanced locking)       | OK (Table-level locks sometimes a limit) | Strong (row-level locking, snapshot isolation)        |
-| Scalability           | High (partitioning, parallel queries) | Medium-High (replication needed)         | High (Enterprise Edition offers sharding, clustering) |
+
+| Feature               | PostgreSQL                          | MySQL                                    | MSSQL                                     |
+|-----------------------|--------------------------------------|------------------------------------------|-------------------------------------------|
+| Read-heavy Workloads  | Good                                 | Excellent (especially with InnoDB)       | Good                                      |
+| Write-heavy Workloads | Excellent (MVCC support)             | Good (less efficient with large writes)  | Excellent (optimized for transactions)    |
+| Concurrency           | Strong (MVCC, advanced locking)      | OK (Table-level locks in some cases)     | Strong (row-level locking, isolation)     |
+| Scalability           | High (partitioning, parallel queries)| Medium-High (needs replication)          | High (Enterprise: sharding, clustering)   |
+
+---
 
 ## 🔧 3. Features
-| Feature            | **PostgreSQL**                       | **MySQL**                                | **MSSQL**                            |
-| ------------------ | ------------------------------------ | ---------------------------------------- | ------------------------------------ |
-| ACID Compliance    | Full                                 | Full (with InnoDB)                       | Full                                 |
-| JSON/NoSQL support | Strong (JSONB, indexing)             | Basic JSON functions                     | Decent (JSON, XML support)           |
-| Stored Procedures  | Yes (pl/pgsql, extensible languages) | Yes (SQL/PSM)                            | Yes (T-SQL)                          |
-| Full-text Search   | Built-in, advanced indexing          | Limited, or requires third-party support | Built-in, very powerful              |
-| Triggers & Rules   | Yes (Advanced)                       | Basic                                    | Yes                                  |
-| GIS / Spatial Data | PostGIS (Very powerful)              | Basic GIS via MySQL GIS extension        | Good (with SQL Server Spatial tools) |
-| Window Functions   | Yes (Advanced)                       | Limited (Basic in older versions)        | Full support                         |
+
+| Feature                    | PostgreSQL                          | MySQL                                    | MSSQL                                      |
+|----------------------------|--------------------------------------|------------------------------------------|--------------------------------------------|
+| ACID Compliance            | Full                                 | Full (with InnoDB)                       | Full                                       |
+| JSON/NoSQL support         | Strong (JSONB, indexing)             | Basic JSON functions                     | Decent (JSON, XML support)                 |
+| Stored Procedures          | Yes (pl/pgsql, extensible langs)     | Yes (SQL/PSM)                            | Yes (T-SQL)                                |
+| Full-text Search           | Built-in, advanced                   | Limited/basic                            | Powerful, built-in                         |
+| Triggers & Rules           | Yes (Advanced)                       | Basic                                    | Yes                                        |
+| GIS / Spatial Data         | PostGIS (Very powerful)              | Basic GIS support                        | Good (Spatial extensions)                  |
+| Window Functions           | Yes (Advanced)                       | Basic (improving in recent versions)     | Full support                               |
+
+---
 
 ## 🔒 4. Security & Authentication
-| Feature         | **PostgreSQL**                   | **MySQL**                 | **MSSQL**                         |
-| --------------- | -------------------------------- | ------------------------- | --------------------------------- |
-| Authentication  | MD5, SCRAM, GSSAPI, LDAP, etc.   | Native MySQL, PAM, LDAP   | Windows Auth, Azure AD, Kerberos  |
-| Role Management | Very flexible (ROLE inheritance) | Basic                     | Strong (SQL & Windows users)      |
-| SSL/TLS Support | Yes                              | Yes                       | Yes                               |
-| Encryption      | Basic column-level (PGCrypto)    | Limited native encryption | Transparent Data Encryption (TDE) |
+
+| Feature               | PostgreSQL                         | MySQL                            | MSSQL                                      |
+|-----------------------|------------------------------------|----------------------------------|--------------------------------------------|
+| Authentication        | MD5, SCRAM, LDAP, GSSAPI, etc.     | Native MySQL, PAM, LDAP          | Windows Auth, Azure AD, Kerberos           |
+| Role Management       | Advanced (Role inheritance)        | Basic                            | Strong (SQL & Windows logins)              |
+| SSL/TLS Support       | Yes                                | Yes                              | Yes                                        |
+| Encryption            | PGCrypto (column-level)            | Limited native encryption        | Transparent Data Encryption (TDE)          |
+
+---
 
 ## 💼 5. Tooling & Ecosystem
-| Feature       | **PostgreSQL**                       | **MySQL**                           | **MSSQL**                       |
-| ------------- | ------------------------------------ | ----------------------------------- | ------------------------------- |
-| GUI Tools     | pgAdmin, DBeaver, DataGrip           | MySQL Workbench, DBeaver, HeidiSQL  | SSMS, Azure Data Studio         |
-| Community     | Strong, academic + corporate users   | Massive (web, startups, LAMP stack) | Enterprise, corporate ecosystem |
-| Cloud Support | AWS RDS, GCP Cloud SQL, Heroku, etc. | AWS, GCP, Oracle Cloud              | Azure SQL, AWS RDS              |
 
-✅ Final Verdict (Short Summary)
+| Feature               | PostgreSQL                       | MySQL                             | MSSQL                                       |
+|-----------------------|----------------------------------|-----------------------------------|---------------------------------------------|
+| GUI Tools             | pgAdmin, DBeaver, DataGrip       | MySQL Workbench, HeidiSQL, DBeaver| SSMS, Azure Data Studio                     |
+| Community             | Strong (academic + corporate)    | Huge (web devs, startups)         | Enterprise-heavy                            |
+| Cloud Support         | AWS RDS, GCP, Heroku             | AWS, GCP, Oracle Cloud            | Azure SQL, AWS RDS                          |
 
-| Need                                 | Best DBMS        |
-| ------------------------------------ | ---------------- |
+---
+
+## 💰 6. Licensing & Cost
+
+| Feature           | PostgreSQL             | MySQL                        | MSSQL                                        |
+|-------------------|------------------------|------------------------------|-----------------------------------------------|
+| Free to Use       | ✅ 100% open source     | ✅ Community Edition          | ❌ Paid for full features                     |
+| Enterprise Support| Optional (via vendors) | Oracle offers support        | Microsoft premium support                     |
+| Cloud Pricing     | Cost-effective         | Moderate                     | Expensive (especially Azure SQL Server)       |
+
+---
+
+## 🎯 7. Best Use Cases
+
+| Use Case                           | Best Choice        |
+|------------------------------------|--------------------|
+| Complex analytics, GIS             | PostgreSQL         |
+| Lightweight web apps, LAMP stack   | MySQL              |
+| Large enterprise systems (ERP, BI) | MSSQL              |
+| Heavy JSON usage                   | PostgreSQL         |
+| Windows-based enterprise apps      | MSSQL              |
+| Open-source + cloud deployments    | PostgreSQL / MySQL |
+
+---
+
+## ✅ Final Verdict
+
+| Need                          | Recommended DBMS   |
+|-------------------------------|--------------------|
 | 🔬 Advanced features & extensibility | PostgreSQL       |
-| 🌐 Web development (PHP, LAMP)       | MySQL            |
-| 🏢 Enterprise, Windows, .NET stack   | MSSQL            |
-| 📊 Data warehousing, BI              | MSSQL/PostgreSQL |
-| 💸 Free and powerful DB              | PostgreSQL       |
-
+| 🌐 Web development (PHP, LAMP stack) | MySQL             |
+| 🏢 Enterprise, Windows, .NET stack   | MSSQL             |
+| 📊 Data warehousing, BI              | MSSQL/PostgreSQL  |
+| 💸 Free and powerful DB              | PostgreSQL        |
