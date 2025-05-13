@@ -175,3 +175,18 @@ SELECT version();
 \q
 psql -U postgres -d new_database
 ```
+### ✅ Method 2: 
+```bash
+\c new_database
+```
+
+## 📘 What \d Does:
+1. Shows columns, data types, indexes, and constraints of a table.
+2. Works only inside the psql interactive shell (postgres=#).
+```sql
+\d 
+```
+
+## 
+
+
