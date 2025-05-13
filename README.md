@@ -11,6 +11,7 @@
 7. [🎯 Best Use Cases](#-7-best-use-cases)
 8. [✅ Final Verdict](#-final-verdict)
 9. [🐘 PostgreSQL Installation & Setup on Ubuntu](#-PostgreSQL-Installation--Setup-on-Ubuntu)
+10. [🔄 Switch PostgreSQL Database from `psql` Shell](#-switch-postgresql-database-from-psql-shell)
 
 
 # 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
@@ -158,7 +159,7 @@ SELECT datname FROM pg_database;
 
 ```
 
-## # 🐘 PostgreSQL: Check Installed Version
+## 🐘 PostgreSQL: Check Installed Version
 ## 🔍 Purpose
 
 The following command is used **inside the `psql` shell** to check the installed version of PostgreSQL:
@@ -166,4 +167,11 @@ The following command is used **inside the `psql` shell** to check the installed
 ```sql
 SELECT version();
 ```
+## 🔄 Switch PostgreSQL Database from `psql` Shell
 
+### ✅ Method 1: Exit & Reconnect
+
+```bash
+\q
+psql -U postgres -d new_database
+```
