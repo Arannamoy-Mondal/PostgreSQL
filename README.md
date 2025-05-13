@@ -1,6 +1,22 @@
 # Postgresql 
 
-## PostgreSQL vs MySQL vs MSSQL comparison
+# 📘 Index – PostgreSQL vs MySQL vs MSSQL
+
+Welcome to the full comparison of the three most popular relational database management systems. Use the links below to jump to each section.
+
+## 📂 Table of Contents
+
+1. [🧠 General Overview](#-1-general-overview)
+2. [🚀 Performance & Scalability](#-2-performance--scalability)
+3. [🔧 Features](#-3-features)
+4. [🔒 Security & Authentication](#-4-security--authentication)
+5. [💼 Tooling & Ecosystem](#-5-tooling--ecosystem)
+6. [💰 Licensing & Cost](#-6-licensing--cost)
+7. [🎯 Best Use Cases](#-7-best-use-cases)
+8. [✅ Final Verdict](#-final-verdict)
+
+
+# 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
 
 ## 🧠 1. General Overview
 | Feature    | **PostgreSQL**                         | **MySQL**                          | **MSSQL (SQL Server)**                |
