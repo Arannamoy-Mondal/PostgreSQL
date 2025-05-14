@@ -12,6 +12,7 @@
 8. [✅ Final Verdict](#-final-verdict)
 9. [🐘 PostgreSQL Installation & Setup on Ubuntu](#-PostgreSQL-Installation--Setup-on-Ubuntu)
 10. [🔄 Switch PostgreSQL Database from `psql` Shell](#-switch-postgresql-database-from-psql-shell)
+11. [SQL Command Categories](#-sql-command-categories)
 
 
 # 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
@@ -194,6 +195,46 @@ psql -U postgres -d new_database
 ```sql
 create user user_name with login encrypted password 'password';
 ```
+
+# SQL Command Categories
+
+## 1. 📘 DDL – Data Definition Language
+Defines or modifies the **structure/schema** of database objects.
+
+| Command     | Description                         |
+|-------------|-------------------------------------|
+| CREATE      | Creates a new database/table/index  |
+| ALTER       | Modifies an existing structure      |
+| DROP        | Deletes an object (table, db, etc.) |
+| TRUNCATE    | Removes all records (no rollback)   |
+| RENAME      | Renames a database object           |
+
+## 2. 📙 DML – Data Manipulation Language
+| Command | Description                        |
+| ------- | ---------------------------------- |
+| SELECT  | (technically DQL, see below)       |
+| INSERT  | Adds new data                      |
+| UPDATE  | Modifies existing data             |
+| DELETE  | Deletes specific rows from a table |
+
+## 3. 📗 DCL – Data Control Language
+| Command | Description             |
+| ------- | ----------------------- |
+| GRANT   | Gives user privileges   |
+| REVOKE  | Removes user privileges |
+
+## 4. 📕 TCL – Transaction Control Language
+| Command         | Description                               |
+| --------------- | ----------------------------------------- |
+| COMMIT          | Saves all changes made in the transaction |
+| ROLLBACK        | Undoes changes if an error occurs         |
+| SAVEPOINT       | Sets a point for partial rollback         |
+| SET TRANSACTION | Sets transaction isolation level          |
+
+## 5. 📓 DQL – Data Query Language
+| Command | Description                         |
+| ------- | ----------------------------------- |
+| SELECT  | Retrieves data from one/more tables |
 
 
 
