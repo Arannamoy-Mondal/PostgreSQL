@@ -187,6 +187,14 @@ psql -U postgres -d new_database
 \d 
 ```
 
-## 
+## 📘 What \du Does:
+1. Show all user of the database.
+
+## Create new user
+```sql
+create user user_name with login encrypted password 'password';
+```
+
+
 
 
