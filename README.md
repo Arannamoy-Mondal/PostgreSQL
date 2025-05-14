@@ -12,7 +12,11 @@
 8. [✅ Final Verdict](#-final-verdict)
 9. [🐘 PostgreSQL Installation & Setup on Ubuntu](#-PostgreSQL-Installation--Setup-on-Ubuntu)
 10. [🔄 Switch PostgreSQL Database from `psql` Shell](#-switch-postgresql-database-from-psql-shell)
-11. [SQL Command Categories](#-SQL-Command-Categories)
+11. [📘 DDL – Data Definition Language](#1-📘-ddl--data-definition-language)
+12. [📙 DML – Data Manipulation Language](#2-📙-dml--data-manipulation-language)
+13. [📗 DCL – Data Control Language](#3-📗-dcl--data-control-language)
+14. [📕 TCL – Transaction Control Language](#4-📕-tcl--transaction-control-language)
+15. [📓 DQL – Data Query Language](#5-📓-dql--data-query-language)
 
 
 # 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
