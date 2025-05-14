@@ -2,21 +2,23 @@
 
 ## 📂 Table of Contents
 
-1. [🧠 General Overview](#-1-general-overview)
-2. [🚀 Performance & Scalability](#-2-performance--scalability)
-3. [🔧 Features](#-3-features)
-4. [🔒 Security & Authentication](#-4-security--authentication)
-5. [💼 Tooling & Ecosystem](#-5-tooling--ecosystem)
-6. [💰 Licensing & Cost](#-6-licensing--cost)
-7. [🎯 Best Use Cases](#-7-best-use-cases)
-8. [✅ Final Verdict](#-final-verdict)
-9. [🐘 PostgreSQL Installation & Setup on Ubuntu](#-PostgreSQL-Installation--Setup-on-Ubuntu)
-10. [🔄 Switch PostgreSQL Database from `psql` Shell](#-switch-postgresql-database-from-psql-shell)
-11. [📘 DDL – Data Definition Language](#-1-📘-ddl--data-definition-language)
-12. [📙 DML – Data Manipulation Language](#-2-📙-dml--data-manipulation-language)
-13. [📗 DCL – Data Control Language](#-3-📗-dcl--data-control-language)
-14. [📕 TCL – Transaction Control Language](#-4-📕-tcl--transaction-control-language)
-15. [📓 DQL – Data Query Language](#-5-📓-dql--data-query-language)
+## 📂 Table of Contents
+
+1. [🧠 General Overview](#1-general-overview)
+2. [🚀 Performance & Scalability](#2-performance--scalability)
+3. [🔧 Features](#3-features)
+4. [🔒 Security & Authentication](#4-security--authentication)
+5. [💼 Tooling & Ecosystem](#5-tooling--ecosystem)
+6. [💰 Licensing & Cost](#6-licensing--cost)
+7. [🎯 Best Use Cases](#7-best-use-cases)
+8. [✅ Final Verdict](#8-final-verdict)
+9. [🐘 PostgreSQL Installation & Setup on Ubuntu](#9-postgresql-installation--setup-on-ubuntu)
+10. [🔄 Switch PostgreSQL Database from `psql` Shell](#10-switch-postgresql-database-from-psql-shell)
+11. [📘 DDL – Data Definition Language](#11-📘-ddl--data-definition-language)
+12. [📙 DML – Data Manipulation Language](#12-📙-dml--data-manipulation-language)
+13. [📗 DCL – Data Control Language](#13-📗-dcl--data-control-language)
+14. [📕 TCL – Transaction Control Language](#14-📕-tcl--transaction-control-language)
+15. [📓 DQL – Data Query Language](#15-📓-dql--data-query-language)
 
 
 # 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
