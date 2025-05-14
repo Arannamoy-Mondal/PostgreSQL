@@ -12,10 +12,9 @@
 8. [✅ Final Verdict](#-final-verdict)
 9. [🐘 PostgreSQL Installation & Setup on Ubuntu](#-PostgreSQL-Installation--Setup-on-Ubuntu)
 10. [🔄 Switch PostgreSQL Database from `psql` Shell](#-switch-postgresql-database-from-psql-shell)
-11. [SQL Command Categories](#-sql-command-categories)
+11. [SQL Command Categories](##-sql-command-categories)
 
 
-# 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
 # 📊 PostgreSQL vs MySQL vs MSSQL – Full Comparison
 
 ## 🧠 1. General Overview
