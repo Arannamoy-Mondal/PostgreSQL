@@ -2,8 +2,6 @@
 
 ## 📂 Table of Contents
 
-## 📂 Table of Contents
-
 1. [🧠 General Overview](#1-general-overview)
 2. [🚀 Performance & Scalability](#2-performance--scalability)
 3. [🔧 Features](#3-features)
