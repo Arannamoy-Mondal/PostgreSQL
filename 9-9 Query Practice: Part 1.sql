@@ -96,6 +96,11 @@ INSERT INTO orders (customer_id, order_date, total_amount) VALUES
         select extract(year from hire_date::date),count(employee_id) from employees group by extract(year from hire_date::date);
 
 
+--**6:** Find customers who have placed more than 2 orders and calculate the total amount spent by     each of these customers.
+
+    select customer_id,sum(total_amount) from orders group by customer_id having count(customer_id)>2;
+
+--- 7: Find the total amount of orders placed each month in the year 2022.
+       select extract(month from orders.order_date),count(order_id) from orders where extract(year from order_date)=2022 group by extract(month from orders.order_date);
 
 
-select extract(year from '2002-08-13'::date);
